@@ -18,4 +18,4 @@ Part of results listed here, including the weight of cifar10 \& 100.
 # verify
 You can verify the results through [test.py](test.py "test.py")
 
-The article has not been published yet. If you wish to communicate with me, you can communicate with me via email. Thank you for your visit.
+The article has not been published yet. All code will be uploaded after the article is published. If you wish to communicate with me, you can communicate with me via email. Thank you for your visit.
