@@ -12,4 +12,6 @@
 ![reduction cell](reduction.pdf "reduction cell")
 ![normal cell](normal.pdf "normal cell")
 
+Part of results listed here, including the weight of cifar10 \& 100 (bscifar10weights.pt,bscifar10weights.pt)
+
 The article has not been published yet. If you wish to communicate with me, you can communicate with me via email. Thank you for your visit.
