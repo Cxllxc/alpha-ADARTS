@@ -1,4 +1,4 @@
-# \alpha-ADARTS
+# $\alpha$-ADARTS
 # abstract
 	The use of gradient guided search in Differentiable neural architecture search(DARTS) significantly reduces the cost of neural network architecture search. 
 	However, DARTS suffers from imbalanced competition among candidate operations, and issues like poor architecture stability caused by the emergence of a large number of weight-free operations in the later stages of search. 
