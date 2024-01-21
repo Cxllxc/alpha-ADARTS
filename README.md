@@ -12,6 +12,9 @@ The use of gradient guided search in Differentiable neural architecture search(D
 Part of results listed here, including the weight of cifar10 \& 100.
 [bscifar10weights](bscifar10weights.pt "bscifar10weights"), [bscifar100weights](bscifar100weights.pt "bscifar100weights")
 
+# Core code
+        out = self.fc2(self.relu1((torch.mm(weights_all.t(), weights_all).expand(len(x), -1, -1) @ (self.fc1(torch.cat((self.avg_pool(x), self.max_pool(x)), dim=1))[:, :, :, 0])).unsqueeze(-1)))
+
 # verify
 You can verify the results through [test.py](test.py "test.py")
 
