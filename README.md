@@ -16,6 +16,6 @@ Part of results listed here, including the weight of cifar10 \& 100.
         out = self.fc2(self.relu1((torch.mm(weights_all.t(), weights_all).expand(len(x), -1, -1) @ (self.fc1(torch.cat((self.avg_pool(x), self.max_pool(x)), dim=1))[:, :, :, 0])).unsqueeze(-1)))
 
 # verify
-You can verify the results through [test.py](test.py "test.py"). The script is only for cifar10, if you want to test the weights for cifar100 please give it a little change. :heart: :heart: :heart:
+You can verify the results through [test.py](test.py "test.py"). The script is just for cifar10, if you want to test the weights for cifar100 please give it a little change. :heart: :heart: :heart:
 
 The article has not been published yet. All code will be uploaded after the article is published. If you wish to communicate with me, you can communicate with me via email. Thank you for your visit.
