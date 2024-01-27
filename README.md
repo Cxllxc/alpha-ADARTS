@@ -18,4 +18,7 @@ Part of results listed here, including the weight of cifar10 \& 100.
 # verify
 You can verify the results through [test.py](test.py "test.py"). The script is just for cifar10, if you want to test the weights for cifar100 please give it a little change.(just change the dataloader and the num of classes) :heart: :heart: :heart:
 
+There may be slight differences between different versions of cuda and pytorch, but the difference will not exceed 0.5\%.
+Performance slightly degradation observed in the latest versions of cuda and pytorch.
+
 The article has not been published yet. All code will be uploaded after the article is published. If you wish to communicate with me, you can communicate with me via email. Thank you for your visit.
