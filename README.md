@@ -19,7 +19,7 @@ Part of results listed here, including the weight of cifar10 \& 100.
 You can verify the results through [test.py](test.py "test.py"). The script is just for cifar10, if you want to test the weights for cifar100 please give it a little change.(just change the dataloader and the num of classes) :heart: :heart: :heart:
 
 The evaluation and validation results of CIFAR100 are in [eval-EXP-20231201-135135](eval-EXP-20231201-135135 "eval-EXP-20231201-135135")
-cifar10: eval-EXP-20240118-165737  
+cifar10: [eval-EXP-20240118-165737](eval-EXP-20240118-165737 "eval-EXP-20240118-165737")
 
 
 There may be slight differences between different versions of cuda and pytorch.
