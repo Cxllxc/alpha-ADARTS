@@ -1,4 +1,4 @@
-# $\alpha$ -ADARTS
+# $\alpha$-ADARTS: Alpha channel attention for differentiable architecture search
 https://ieeexplore.ieee.org/document/10933613
 # abstract
 
